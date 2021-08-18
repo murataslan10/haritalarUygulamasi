@@ -87,7 +87,7 @@ class mapsViewController: UIViewController, MKMapViewDelegate, CLLocationManager
                                             
                                             locationManager.stopUpdatingLocation() // 11. guncelleme yapma
                                            
-                                            let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)      // 11.
+                                            let span = MKCoordinateSpan(latitudeDelta: 0.07, longitudeDelta: 0.07)      // 11.
                                             let region =  MKCoordinateRegion(center: coordinate, span: span) // 11
                                             mapView.setRegion(region, animated: true)
                                         }
