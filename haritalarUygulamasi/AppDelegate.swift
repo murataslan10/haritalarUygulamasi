@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  haritalarUygulamasi
 //
-//  Created by Merve dalbeler on 2.08.2021.
+//  Created by Murat Aslan on 2.08.2021.
 //
 
 import UIKit
