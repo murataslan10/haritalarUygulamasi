@@ -58,8 +58,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ksT-bH-ClD">
-                                <rect key="frame" x="137" y="805" width="140" height="37"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="7J9-mb-Clh">
+                                <rect key="frame" x="0.0" y="240" width="414" height="544"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ksT-bH-ClD">
+                                <rect key="frame" x="137" y="813" width="140" height="37"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="C0A-mb-QKG"/>
                                 </constraints>
@@ -68,9 +71,6 @@
                                     <action selector="kaydetTiklandi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yeu-T7-x0w"/>
                                 </connections>
                             </button>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="7J9-mb-Clh">
-                                <rect key="frame" x="0.0" y="240" width="414" height="544"/>
-                            </mapView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
